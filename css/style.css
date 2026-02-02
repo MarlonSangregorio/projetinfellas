@@ -39,7 +39,7 @@ body {
     background: var(--gradient-dark);
 
     margin-inline: 15%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--text-main);
 }
 
