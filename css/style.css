@@ -14,6 +14,14 @@
 
     --accent: #e0e0e028;
     /* detalhes / hover / linhas */
+
+    /* gradient do background */
+    --gradient-dark: linear-gradient(
+    to top,
+    #111 0%,
+    #000 50%,
+    #111 100%
+  );
 }
 
 /* All */
@@ -29,10 +37,8 @@ html {
 
 /* Body */
 body {
-    background: linear-gradient(to top,
-            #111 0%,
-            #000 50%,
-            #111 100%);
+    position: relative;
+    background: var(--gradient-dark);
 
     margin-inline: 15%;
     font-family: 'Inter', sans-serif;
@@ -349,8 +355,27 @@ iframe {
 
 /* celulares pequenos */
 @media (max-width: 480px) {
-    
+
     body {
         margin: 0;
     }
+}
+
+
+
+.whatsapp-btn {
+    z-index: 1001;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.icon-img-fixed path {
+    fill: #25D366;
+    /* agora funciona */
+}
+
+.icon-img-fixed {
+    width: 3.5rem;
+    height: 3.5rem;
 }
