@@ -312,7 +312,11 @@ iframe {
 }
 
 /* tablets */
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    body {
+        margin: 0;
+    }
+}
 
 /* celulares */
 @media (max-width: 768px) {
