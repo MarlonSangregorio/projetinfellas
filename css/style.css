@@ -317,6 +317,10 @@ iframe {
 /* celulares */
 @media (max-width: 768px) {
 
+    body {
+        margin: 0;
+    }
+
     .logo {
         height: 60px;
     }
@@ -345,20 +349,8 @@ iframe {
 
 /* celulares pequenos */
 @media (max-width: 480px) {
-    h1 {
-        font-size: 1rem;
-    }
-
-    h2 {
-        font-size: .5rem;
-    }
-
-    h3 {
-        font-size: .1rem;
-    }
-
-    p,
-    span {
-        font-size: .2rem;
+    
+    body {
+        margin: 0;
     }
 }
