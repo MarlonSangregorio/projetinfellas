@@ -271,7 +271,7 @@ footer {
     filter: brightness(0) invert(1);
 }
 
-.address {
+.address-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -290,7 +290,7 @@ iframe {
 
 /* desktops */
 @media (max-width: 1440px) {
-    .address {
+    .address-div {
         display: flex;
         flex-direction: column;
         align-items: center;
