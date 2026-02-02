@@ -16,12 +16,10 @@
     /* detalhes / hover / linhas */
 
     /* gradient do background */
-    --gradient-dark: linear-gradient(
-    to top,
-    #111 0%,
-    #000 50%,
-    #111 100%
-  );
+    --gradient-dark: linear-gradient(to top,
+            #111 0%,
+            #000 50%,
+            #111 100%);
 }
 
 /* All */
@@ -221,6 +219,17 @@ section {
 
 main {
     text-transform: uppercase;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-div img {
+    border-radius: 1rem;
+    width: 40%;
 }
 
 .img-main {
