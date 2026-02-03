@@ -36,9 +36,6 @@ html {
 /* Body */
 body {
     position: relative;
-    background: var(--gradient-dark);
-
-    margin-inline: 15%;
     font-family: 'Roboto', sans-serif;
     color: var(--text-main);
 }
