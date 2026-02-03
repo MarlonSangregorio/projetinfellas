@@ -38,6 +38,7 @@ body {
     position: relative;
     font-family: 'Roboto', sans-serif;
     color: var(--text-main);
+    background-color: var(--bg-main);
 }
 
 a {
