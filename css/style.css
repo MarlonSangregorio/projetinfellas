@@ -57,7 +57,7 @@ a:hover {
 .border {
     background-color: var(--bg-secondary);
     position: relative;
-    padding-block: 100px;
+    padding-block: 50px;
 }
 
 .border::after {
@@ -75,10 +75,16 @@ a:hover {
 
 header {
     background-color: rgba(0, 0, 0, 0.748);
-
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s ease;
     z-index: 1000;
+}
+
+header.hide {
+    transform: translateY(-100%);
 }
 
 .logo {
